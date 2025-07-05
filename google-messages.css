@@ -1,0 +1,290 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	font-family: tahoma;
+	
+}
+
+header img {
+	max-width: 100px;
+	max-height: 100px;
+	
+}
+header h1 {
+	font-family: sans-serif;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 30px;
+	
+	
+}
+
+.section1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	max-width: 1100px;
+	column-gap: 30px;
+	
+	
+	
+}
+.section1-text-button {
+	width: 45%;
+	min-width: 300px;
+}
+.section1-video {
+	width: 45%;
+	min-width: 300px;
+	min-height: 350px;
+
+}
+.section1-text-button h1, p {
+	max-width: 400px;
+	min-width: 300px;
+	
+}
+span {
+	color: rgb(46, 46, 220);
+}
+
+.section1-text-button button {
+	padding: 10px 15px 10px 15px;
+	border: 1px soild black;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: black;
+}
+.section1-text-button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+.section1-text-button button:hover {
+	background-color: rgb(46, 46, 220);
+}
+
+
+
+.section2 h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 150px;
+}
+
+
+
+
+
+
+
+.section3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	max-width: 1100px;
+	column-gap: 30px;
+	
+	
+	
+}
+
+.section3-text-button {
+	width: 45%;
+	min-width: 300px;
+
+
+}
+
+.section3-video {
+	width: 45%;
+	min-width: 300px;
+	min-height: 350px;
+}
+
+.section3-text-button button {
+	padding: 10px 15px 10px 15px;
+	border: 1px soild black;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: black;
+}
+.section3-text-button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+.section3-text-button button:hover {
+	background-color: rgb(46, 46, 220);
+}
+
+
+
+
+
+
+.section4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	column-gap: 30px;
+	max-width: 1100px;
+	
+	
+}
+
+.section4-text-button {
+	width: 45%;
+	min-width: 300px;
+}
+
+.section4-video {
+	width: 45%;
+	min-width: 300px;
+	min-height: 350px;
+	
+
+}
+.section4-text-button button {
+	padding: 10px 15px 10px 15px;
+	border: 1px soild black;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: black;
+}
+.section4-text-button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+.section4-text-button button:hover {
+	background-color: rgb(46, 46, 220);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section5 {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	max-width: 1100px;
+	column-gap: 40px;
+}
+.section5-text-button {
+	width: 45%;
+	min-width: 300px;
+}
+.section5-video {
+	width: 45%;
+	min-width: 300px;
+	min-height: 350px;
+}
+.section5-text-button button {
+	padding: 10px 15px 10px 15px;
+	border: 1px soild black;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: black;
+}
+.section5-text-button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+.section5-text-button button:hover {
+	background-color: rgb(46, 46, 220);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section6 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	max-width: 1100px;
+	justify-content: center;
+	align-items: center;
+	column-gap: 30px;
+}
+
+.section6-text-button {
+	width: 45%;
+	min-width: 300px;
+}
+.section6-video {
+	width: 45%;
+	min-width: 300px;
+	min-height: 350px;
+}
+.section6-text-button button {
+	padding: 10px 15px 10px 15px;
+	border: 1px soild black;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: black;
+}
+.section6-text-button a {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+.section6-text-button button:hover {
+	background-color: rgb(46, 46, 220);
+}
